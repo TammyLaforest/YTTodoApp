@@ -9,7 +9,7 @@ export default tempData = [
       },
       {
         title: "Passport Check",
-        completed: true,
+        completed: false,
       },
       {
         title: "Pack luggage",
@@ -24,7 +24,7 @@ export default tempData = [
     todos: [
       {
         title: "Buy Milk",
-        completed: false,
+        completed: true,
       },
       {
         title: "Make a video",
@@ -36,6 +36,20 @@ export default tempData = [
       },
     ],
   },
+  {
+    name: "Shopping",
+    color: "#E022D9",
+    todos: [
+      {
+        title: "Guitar",
+        completed: false,
+      },
+      {
+        title: "Drum Machine",
+        completed: false,
+      },
+    ],
+  },
 
   {
     name: "Birthday Party",
@@ -43,7 +57,7 @@ export default tempData = [
     todos: [
       {
         title: "Buy Balloons",
-        completed: false,
+        completed: true,
       },
       {
         title: "Send Invitations",
@@ -51,6 +65,18 @@ export default tempData = [
       },
       {
         title: "Wrap gifts",
+        completed: true,
+      },
+      {
+        title: "Inflate Balloons",
+        completed: true,
+      },
+      {
+        title: "Bake Cake",
+        completed: true,
+      },
+      {
+        title: "Frost Cake",
         completed: false,
       },
     ],
